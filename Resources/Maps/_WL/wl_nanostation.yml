@@ -30810,18 +30810,6 @@ entities:
     components:
     - type: Transform
       parent: 4929
-    - type: Storage
-      storedItems:
-        10225:
-          position: 0,0
-          _rotation: South
-    - type: ContainerContainer
-      containers:
-        storagebase: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 10225
     - type: Physics
       canCollide: False
 - proto: CircuitImprinter
@@ -32792,14 +32780,6 @@ entities:
       rot: -2.9103830456733704E-11 rad
       pos: 4.60781,12.49023
       parent: 2
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckSyndicakePin
-  entities:
-  - uid: 10225
-    components:
-    - type: Transform
-      parent: 8625
     - type: Physics
       canCollide: False
 - proto: ClothingNeckTieRed
@@ -39841,9 +39821,6 @@ entities:
           _rotation: South
         11131:
           position: 5,0
-          _rotation: South
-        10225:
-          position: 6,0
           _rotation: South
         13605:
           position: 6,1
