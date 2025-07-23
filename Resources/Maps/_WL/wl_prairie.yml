@@ -26948,14 +26948,6 @@ entities:
     - type: Transform
       pos: 25.410574,-46.505463
       parent: 1
-- proto: ClothingHandsGlovesCombat
-  entities:
-  - uid: 997
-    components:
-    - type: Transform
-      parent: 406
-    - type: Physics
-      canCollide: False
 - proto: ClothingHandsGlovesFingerless
   entities:
   - uid: 10476
@@ -33390,22 +33382,7 @@ entities:
     - type: Transform
       pos: 3.5,-14.5
       parent: 1
-    - type: ContainerContainer
-      containers:
-        storagebase: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 997
-          - 4603
     - type: Storage
-      storedItems:
-        4603:
-          position: 0,0
-          _rotation: South
-        997:
-          position: 1,0
-          _rotation: East
 - proto: DresserQuarterMasterFilled
   entities:
   - uid: 2822
@@ -52025,12 +52002,6 @@ entities:
     components:
     - type: Transform
       parent: 790
-    - type: Physics
-      canCollide: False
-  - uid: 4603
-    components:
-    - type: Transform
-      parent: 406
     - type: Physics
       canCollide: False
   - uid: 4604
