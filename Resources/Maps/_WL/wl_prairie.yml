@@ -25790,14 +25790,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 16.681515,-53.54422
       parent: 1
-- proto: CigaretteSyndicate
-  entities:
-  - uid: 10327
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 16.825033,-53.599773
-      parent: 1
   - uid: 10328
     components:
     - type: Transform
