@@ -23,7 +23,7 @@
               - type: ProtectedGrid
               - type: TradeStation
             paths:
-              - /_WL/Maps/Test/empty_but_grid.yml
+              - /Maps/_WL/Test/empty_but_grid.yml
         availableJobs:  # Total jobs on the station: 66
             #  command: 2
             Captain: [ 1, 1 ]
